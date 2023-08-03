@@ -18,7 +18,7 @@ function App() {
   {/* call the NavBar in to App.js  within a closing tag (< />), after importing it from components */}
       
         <NavBar /> 
-      <h1> My Portfolio using Reactapp</h1>
+      {/* <h1> My Portfolio using Reactapp</h1> */}
       
       <Routes className='' >
        <Route path="/" element={<HomePage/>}/>

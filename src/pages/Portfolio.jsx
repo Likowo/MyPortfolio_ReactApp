@@ -35,7 +35,7 @@ export default function Portfolio(props) {
         {/* In a seccond div, put 3 images in 3 img tag, a h5  with <a> tag to pull in project link ( github link), a <p> tag to briefly describe project */}
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://m.media-amazon.com/images/I/41nDdywsNPL._UC256,256_CACC,256,256_.jpg" className="d-block w-100" alt="..." className="icons" />
+            <img src="https://m.media-amazon.com/images/I/41nDdywsNPL._UC256,256_CACC,256,256_.jpg" className="icons" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5> Checkout This project </h5>
               <p>
@@ -44,7 +44,7 @@ export default function Portfolio(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://hotpotmedia.s3.us-east-2.amazonaws.com/8-V5yX6XvFUENVdP5.png" className="d-block w-100" alt="..." />
+            <img src="https://hotpotmedia.s3.us-east-2.amazonaws.com/8-V5yX6XvFUENVdP5.png" className="icons" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5> Checkout This project</h5>
               <p>
@@ -53,7 +53,7 @@ export default function Portfolio(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://thumbs.dreamstime.com/b/angel-20352501.jpg" className="d-block w-100" alt="..." />
+            <img src="https://thumbs.dreamstime.com/b/angel-20352501.jpg" className="icons" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5> Checkout This project </h5>
               <p>

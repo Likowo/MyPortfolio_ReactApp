@@ -56,13 +56,17 @@ body {
 
 .portfolio {
   border: solid 4px rgb(7, 87, 7);
-  height:20vh;
-  width:20vw;  
+  height:70vh;
+  width:100vw;  
 }
 
-.icon {
-  height:20vh;
-  width:20vw;  
+ .carousel-item {
+  border: solid 5px magenta;
+  /* background-color: bisque; */
+  height: 70vh;
+  /* width:10vw;  */
+
+
 }
 
 
