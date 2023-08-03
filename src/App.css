@@ -12,9 +12,7 @@ body {
   text-align: center;
   justify-content: center;
   background-color: lightblue;
-  /* background-image: url("https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif");
-  background-repeat:repeat; */
-
+  
 }
 
 .nav {
@@ -31,27 +29,21 @@ body {
 
 }
 
-.footer {
-  border: solid 3px rgb(201, 225, 43);
-  /* height: 10vh ; */
-  width: 100vw;
-  /* margin-top: 30%; */
-   padding-top: 3%;
-  display: flex;
-  justify-content:safe;
-  align-content: center;
- padding-left:3%;
-}
-
-.arrow {
-  height: 3vh;
-  width: 3vw;
-}
 
 .homePage{
   border: solid 3px orange;
   height: 70vh;
-  width: 100vw;  
+  width: 100vw; 
+}
+
+.image {
+  border: solid 3px rgb(213, 64, 126);
+  height: 50vmin;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-repeat:no-repeat; 
+  /* background-size:auto; */
 }
 
 .portfolio {
@@ -60,15 +52,48 @@ body {
   width:100vw;  
 }
 
- .carousel-item {
+ .carousel-item, .carousel-inner, .icons {
   border: solid 5px magenta;
   /* background-color: bisque; */
-  height: 70vh;
-  /* width:10vw;  */
-
-
+  height: 30vh;
+  width:20vw; 
+margin-left: 40%;
+margin-bottom: 40%;
 }
 
+.InConstruction{
+  border: solid 4px rgb(41, 10, 200);
+  height: 70vh;
+  width: 100vw; 
+}
+
+.footer {
+  border: solid 3px rgb(201, 225, 43);
+  background-image: url('https://www.citypng.com/public/uploads/preview/stars-galaxy-planet-illustration-transparent-png-31629667891pwgssraa4l.png');
+  /* height: 10vh ; */
+  width: 100vw;
+  /* margin-top: 30%; */
+   padding: 3%;
+   display: flex; 
+  justify-content:space-around;
+  align-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.arrow {
+  border: solid 2px yellow;
+  height: 3vh;
+  width: 8%;
+  font-size: 20px;
+}
+
+/* .contactLinks {
+  display: flex;
+  flex-wrap:wrap ;
+  flex-direction: row ;
+} */
 
 
 

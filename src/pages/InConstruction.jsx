@@ -1,5 +1,12 @@
-export default function WorkInContruction (props){
-    return <h1>This is the InConstruction page </h1>
+
+export default function InContruction (){
+
+    return (
+        <div className="InConstruction" > 
+             <h1>This is the InConstruction page </h1>
+        </div>
+   
+    )
 };
 
 //Import all paintings

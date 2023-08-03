@@ -1,3 +1,9 @@
 export default function Resume (props){
-    return <h1>This is the Resume page </h1>;
+    
+    return (
+        <div className="InConstruction" > 
+          <h1>This is the Resume page </h1>
+   </div>
+    )
+
 };

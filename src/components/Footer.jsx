@@ -9,19 +9,19 @@ function Footer() {
        </span>
        <img src="http://www.clipartbest.com/cliparts/7ca/6g5/7ca6g54ei.gif" alt="" className="arrow"/>
 
-       <div>
+       <div className="contactLinks" >
          <a href="https://www.linkedin.com/in/ann-likowo-molinge-39576473">
         <div>LinkedIn</div>
         </a>
        </div>
     
-    <div> 
+    <div className="contactLinks"> 
       <a href="https://calendly.com/amolinge17">
         <div>Calendy</div>
       </a>
     </div>
     
-    <div>
+    <div className="contactLinks">
         <a href="https://github.com/Likowo?tab=repositories">
         <div>GitHub</div>
       </a> 
