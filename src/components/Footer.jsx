@@ -13,9 +13,9 @@ function Footer() {
         <div>Calendy</div>
       </a>
 
-     
-
-    
+      <a href="(https://github.com/Likowo?tab=repositories)">
+        <div>GitHub</div>
+      </a> 
     </div>
   );
 }
