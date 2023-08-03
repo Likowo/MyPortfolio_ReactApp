@@ -9,6 +9,12 @@ function Footer() {
         <div>LinkedIn</div>
       </a>
 
+      <a href="https://calendly.com/amolinge17">
+        <div>Calendy</div>
+      </a>
+
+     
+
     
     </div>
   );
