@@ -5,6 +5,8 @@ export default function Portfolio(props) {
     //Insert carousel logic fron bootstrap. NB: Chose images of same size to display or customize to same size using css/
     //
 
+    <div className="portfolio" >
+
       <div id="carouselExampleCaptions" className="carousel slide">
         {/* In a div, Create indicator buttons (  from indext 0 to 2) that let users jump directly to a particular slide.*/}
         <div className="carousel-indicators">
@@ -33,7 +35,7 @@ export default function Portfolio(props) {
         {/* In a seccond div, put 3 images in 3 img tag, a h5  with <a> tag to pull in project link ( github link), a <p> tag to briefly describe project */}
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://m.media-amazon.com/images/I/41nDdywsNPL._UC256,256_CACC,256,256_.jpg" className="d-block w-100" alt="..." />
+            <img src="https://m.media-amazon.com/images/I/41nDdywsNPL._UC256,256_CACC,256,256_.jpg" className="d-block w-100" alt="..." className="icons" />
             <div className="carousel-caption d-none d-md-block">
               <h5> Checkout This project </h5>
               <p>
@@ -80,6 +82,6 @@ export default function Portfolio(props) {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    
+      </div>
   );
 }

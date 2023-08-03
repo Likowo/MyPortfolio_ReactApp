@@ -19,7 +19,7 @@ function App() {
       
         <NavBar /> 
       <h1> My Portfolio using Reactapp</h1>
-        
+      
       <Routes className='' >
        <Route path="/" element={<HomePage/>}/>
        <Route path="/Portfolio" element={<Portfolio/>}/>
@@ -28,10 +28,11 @@ function App() {
        <Route path="/Contact" element={<Contact/>}/>
       </Routes>
 
-      <div>
-        <span>Let us grow together. Connect Today. </span>
-      </div>
-      <Footer />
+      {/* <div>
+        
+      </div> */}
+      <Footer /> 
+    
 
     </div>
   );

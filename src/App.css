@@ -4,18 +4,66 @@ body {
 }
 
 .App {
-  width: 100vw;
-  height: 100vh;
+  width: auto;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
   background-color: lightblue;
+  /* background-image: url("https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif");
+  background-repeat:repeat; */
+
 }
 
+.nav {
+  border: solid 3px rgb(198, 46, 46);
+  height: 10vh ;
+  width: 100vw;
+  /* margin-top: -32%; */
+  padding-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJlt_kyGdtKC8sfpwULJjLxX_AwHb2i6AoBQ&usqp=CAU"); 
+  background-repeat: no-repeat; 
+  background-size: cover;
 
+}
 
+.footer {
+  border: solid 3px rgb(201, 225, 43);
+  /* height: 10vh ; */
+  width: 100vw;
+  /* margin-top: 30%; */
+   padding-top: 3%;
+  display: flex;
+  justify-content:safe;
+  align-content: center;
+ padding-left:3%;
+}
+
+.arrow {
+  height: 3vh;
+  width: 3vw;
+}
+
+.homePage{
+  border: solid 3px orange;
+  height: 70vh;
+  width: 100vw;  
+}
+
+.portfolio {
+  border: solid 4px rgb(7, 87, 7);
+  height:20vh;
+  width:20vw;  
+}
+
+.icon {
+  height:20vh;
+  width:20vw;  
+}
 
 
 

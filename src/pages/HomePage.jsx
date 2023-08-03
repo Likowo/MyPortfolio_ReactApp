@@ -1,6 +1,26 @@
+import { useState,useEffect } from "react";
+import { Link } from "react-router-dom";
+import React from "react";
+
+
 export default function Home (props){
-    return <h1>This is the Home page </h1>
+
+  const [quote, setquote] = useState(null)
+
+    return (
+        <div className="homePage" > 
+          <h1>This is the Home page </h1>
+        </div>
+        //P tag about me
+
+        // Import API using axios
+
+    )
+
+
 };
+
+
 
 // Both NavBar and Footer done by creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank"); And then calling then in Apps.js to display on home browser.
 
