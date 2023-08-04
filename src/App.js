@@ -37,12 +37,12 @@ function App() {
         <NavBar /> 
       {/* <h1> My Portfolio using Reactapp</h1> */}
   
-  <div> 
+  <div className='appImages'> 
       <div>
         <img src="https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif" alt="" className="image" />
      </div>
       <div> 
-        <img src='https://cdnl.iconscout.com/lottie/premium/preview-watermark/woman-looking-for-freelance-ui-ux-designer-8636711-6864482.mp4?h=700' alt='' className="image" />
+        <img src='https://web-saga.com/static/media/coder.09366fea.gif' alt='' className="image" />
       </div> 
   </div>    
       <Routes className='' >

@@ -36,14 +36,13 @@ body {
   width: 100vw; 
 }
 
-.image {
+.appImages {
   border: solid 3px rgb(213, 64, 126);
-  height: 50vmin;
+  height: 42vh;
   width: 100vw;
   display: flex;
-  flex-direction: row;
   background-repeat:no-repeat; 
-  /* background-size:auto; */
+  background-size:cover;
 }
 
 .portfolio {
