@@ -25,6 +25,8 @@ body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJlt_kyGdtKC8sfpwULJjLxX_AwHb2i6AoBQ&usqp=CAU"); 
   background-repeat: no-repeat; 
   background-size: cover;
+  position: sticky;
+  top: 0;
 }
 
 .homePage{
@@ -51,17 +53,60 @@ body {
 
 .portfolio {
   border: solid 4px rgb(7, 87, 7);
-  height:70vh;
+  height:100vh;
   width:100vw;  
 }
 
- .carousel-item, .carousel-inner, .icons {
-  border: solid 5px magenta;
-  /* background-color: bisque; */
-  height: 30vh;
-  width:20vw; 
-margin-left: 40%;
-margin-bottom: 40%;
+.portfolioIntro{
+  /* border: solid 2px black; */
+  height: 18vh;
+  width:55vw;
+  display: flex;
+  flex-direction:row;
+  padding: 8px;
+  background-color: cadetblue;
+  font-size: 20px;
+  font-family: serif;
+  color: rgb(246, 241, 242);
+}
+
+ .carousel-inner{
+  /* border: solid 5px magenta; */
+  background-image: url("https://images.unsplash.com/photo-1603993097397-89c963e325c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  height: 50vh;
+  width:50vw; 
+margin-left: 20%;
+margin-top: 6%;
+}
+
+ .icons {
+  /* border: solid 5px red; */
+  height: 50vh;
+  width:35vw; 
+} 
+
+.checkOutProject {
+  color: rgb(233, 127, 7);
+  font-size: 25px;
+  text-decoration:underline;
+}
+
+.checkOutProject, .button :hover{
+  cursor: pointer;
+}
+
+.projectDescription {
+  color:whitesmoke;
+  font-size: 22px;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 0.5%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  border: solid 5px red;
+  background-color: black;
+
 }
 
 .InConstruction{
@@ -81,6 +126,8 @@ margin-bottom: 40%;
   color: white;
   font-weight: bold;
   font-size: 25px;
+  /* position: sticky;
+  top: 0; */
 }
 
 .arrow {
