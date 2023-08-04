@@ -46,7 +46,7 @@ export default function Home (props){
   const [quote, setQuote] = useState(null);
 
   const getImageQuote = async () => {
-     const response = await axios.get('https://random-data-api.com/api/v2/users?size=25&is_xml=true');
+     const response = await axios.get('https://random-data-api.com/api/v2/users?size=2&is_xml=true');
      console.log(response)
     const imageQuote = await response.data;
     console.log({imageQuote})
@@ -62,7 +62,7 @@ export default function Home (props){
     return (
         <div className="homePage" > 
           <h1>This is the Home page </h1>
-          <button onClick={getImageQuote} className="quotesButton"> Show Quote Of The Day </button>
+          <button onClick={getImageQuote} className="quotesButton"> Show Employee Information </button>
       <>
   {quote && quote.map((quote, index) => {
    return(
