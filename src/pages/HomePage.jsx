@@ -67,13 +67,13 @@ export default function Home (props){
   {quote && quote.map((quote, index) => {
    return(
     <div key={index}>
-      <h2> Author Name: {quote.username} </h2>
+      <h2> Employee Name: {quote.username} </h2>
       <img src={quote.avatar} />
-      <p> {quote.gender}</p>
-      <p> {quote.employment.title}</p>
-      <p> {quote.employment.key_skill}</p>
-      <p> {quote.address.state}</p>
-      <p> {quote.address.country}</p>
+      <p> Gender: {quote.gender}</p>
+      <p> Title: {quote.employment.title}</p>
+      <p> Main Skill: {quote.employment.key_skill}</p>
+      <p> State: {quote.address.state}</p>
+      <p> Country: {quote.address.country}</p>
     </div>)
   })}
      </>
