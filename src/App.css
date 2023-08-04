@@ -11,8 +11,7 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color: lightblue;
-  
+  background-color: lightblue;  
 }
 
 .nav {
@@ -26,14 +25,13 @@ body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJlt_kyGdtKC8sfpwULJjLxX_AwHb2i6AoBQ&usqp=CAU"); 
   background-repeat: no-repeat; 
   background-size: cover;
-  
-
 }
 
 .homePage{
   border: solid 3px orange;
   height: 70vh;
   width: 100vw; 
+  background-color:burlywood;
 }
 
 .appImages {
