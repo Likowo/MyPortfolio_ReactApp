@@ -94,9 +94,14 @@ margin-bottom: 40%;
 
 .contactLinks {
 /* border: solid 4px red; */
+cursor: pointer;
 color: white;
 text-decoration:overline;
 text-decoration-style: double;
+}
+
+:hover {
+  
 }
 
 
