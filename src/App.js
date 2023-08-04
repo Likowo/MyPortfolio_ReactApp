@@ -56,26 +56,8 @@ function App() {
        <Route path="/InConstruction" element={<InConstruction/>}/>
        <Route path="/Contact" element={<Contact/>}/>
       </Routes>
-{/*      
-      return (
-        <div className="homePage" > 
-          <h1>This is the Home page </h1>
-          <button onClick={getImageQuote} className="quotesButton"> Show Quote Of The Day </button>
-      <>
-  {quote && quote.map((quote, index) => {
-   return(
-    <div key={index}>
-      <h2> Author Name: {quote.authorname} </h2>
-      <p> {quote.quotetext }</p>
-    </div>)
-  })}
-     </>
-        </div>        
-    ); */}
 
-      <Footer /> 
-    
-
+     <Footer /> 
     </div>
   );
 }

@@ -36,10 +36,21 @@ export default function Portfolio(props) {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="https://m.media-amazon.com/images/I/41nDdywsNPL._UC256,256_CACC,256,256_.jpg" className="icons" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5> Checkout This project </h5>
+            <div className="carousel-caption d-none d-md-block"> 
+
+       <div className="projectLinks" >
+         <a href="https://likowo.github.io/PerScholas_Responsive_Website/ ">
+         <h5> Checkout This project </h5>
+        </a>
+       </div>
+       {/* <div className="contactLinks" >
+         <a href="https://www.linkedin.com/in/ann-likowo-molinge-39576473">
+        <div>LinkedIn</div>
+        </a>
+       </div> */}
+
               <p>
-                Some representative placeholder content for the first slide.
+                A simple and resourcefull landing page for Per Scholas
               </p>
             </div>
           </div>
