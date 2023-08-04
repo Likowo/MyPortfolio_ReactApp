@@ -3,7 +3,7 @@ export default function Portfolio(props) {
     
     //  <h1>This is the Portfolio page </h1> 
     //Insert carousel logic fron bootstrap. NB: Chose images of same size to display or customize to same size using css/
-    //
+    // Top  projects for now ( will be displaying  3 out of  5): (1) https://likowo.github.io/PerScholas_Responsive_Website/  (2)https://likowo.github.io/GameApp_SpaceBattle/  (3) https://likowo.github.io/Mod1_DOM_Quiz_Game_2Players/  (4)https://likowo.github.io/ATM_ScreenProj/ (5) https://likowo.github.io/Employee_Directory_ReactApp_useContextHook/ (6)  https://likowo.github.io/Screen_Time_Reac_tApp/
 
     <div className="portfolio" >
 

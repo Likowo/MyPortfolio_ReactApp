@@ -41,9 +41,9 @@ function App() {
       <div>
         <img src="https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif" alt="" className="image" />
      </div>
-      {/* <div> 
+      <div> 
         <img src='https://cdnl.iconscout.com/lottie/premium/preview-watermark/woman-looking-for-freelance-ui-ux-designer-8636711-6864482.mp4?h=700' alt='' className="image" />
-      </div> */}
+      </div> 
   </div>    
       <Routes className='' >
        <Route path="/" element={<HomePage/>}/>
