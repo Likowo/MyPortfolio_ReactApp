@@ -4,7 +4,7 @@ body {
 }
 
 .App {
-  width: auto;
+  width: 100vw;
   /* height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -16,19 +16,19 @@ body {
 }
 
 .nav {
-  border: solid 3px rgb(198, 46, 46);
+  /* border: solid 3px rgb(198, 46, 46); */
   height: 10vh ;
   width: 100vw;
-  /* margin-top: -32%; */
   padding-top: 3%;
+  font-size: 20px;
   display: flex;
   justify-content: space-evenly;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJlt_kyGdtKC8sfpwULJjLxX_AwHb2i6AoBQ&usqp=CAU"); 
   background-repeat: no-repeat; 
   background-size: cover;
+  
 
 }
-
 
 .homePage{
   border: solid 3px orange;
@@ -37,12 +37,18 @@ body {
 }
 
 .appImages {
-  border: solid 3px rgb(213, 64, 126);
-  height: 42vh;
+  /* border: solid 3px rgb(213, 64, 126); */
+  height: 30vh;
   width: 100vw;
   display: flex;
   background-repeat:no-repeat; 
   background-size:cover;
+}
+
+.img {
+  /* border: solid 5px purple; */
+  height: 30vh;
+  width: 33.1vw;
 }
 
 .portfolio {
