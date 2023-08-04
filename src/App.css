@@ -28,7 +28,7 @@ body {
 }
 
 .homePage{
-  border: solid 3px orange;
+  /* border: solid 3px orange; */
   height: 70vh;
   width: 100vw; 
   background-color:burlywood;
@@ -82,21 +82,22 @@ margin-bottom: 40%;
   align-content: center;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .arrow {
-  border: solid 2px yellow;
-  height: 3vh;
+  /* border: solid 5px blue; */
+  height: 8vh;
   width: 8%;
   font-size: 20px;
 }
 
-/* .contactLinks {
-  display: flex;
-  flex-wrap:wrap ;
-  flex-direction: row ;
-} */
+.contactLinks {
+/* border: solid 4px red; */
+color: white;
+text-decoration:overline;
+text-decoration-style: double;
+}
 
 
 
