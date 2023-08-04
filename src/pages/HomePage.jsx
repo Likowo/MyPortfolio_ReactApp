@@ -68,9 +68,12 @@ export default function Home (props){
    return(
     <div key={index}>
       <h2> Author Name: {quote.username} </h2>
-      <p> {quote.avatar}</p>
-      <p> {quote.avatar}</p>
+      <img src={quote.avatar} />
+      <p> {quote.gender}</p>
       <p> {quote.employment.title}</p>
+      <p> {quote.employment.key_skill}</p>
+      <p> {quote.address.state}</p>
+      <p> {quote.address.country}</p>
     </div>)
   })}
      </>
