@@ -37,7 +37,7 @@ export default function Home (props){
 
   // Step 3: P tag about me
 
-  //Step 4: Import API using axios .// Inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>
+  //Step 4: Import API using axios .// https://random-data-api.com/api/v2/users?size=25&is_xml=true
 
   // <div>
   //   <img src="https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif" alt="" className="image" />
@@ -53,7 +53,6 @@ export default function Home (props){
     setQuote(response.data)
   }
   
-
   useEffect(() => {
     console.log('it is working')
     getImageQuote();
@@ -83,26 +82,7 @@ export default function Home (props){
 
 
 
-// Both NavBar and Footer done by creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank"); And then calling then in Apps.js to display on home browser.
+// Both NavBar and Footer done in separate pages by creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank"); And then calling then in Apps.js to display on home browser.
 
-//--> NavBar parent div---//
-  // logo img in div tag //
-  // 5 buttons in 5 divs for home page,portfolio,resume,inconstruction and contact//
-// {/* <div className="navBar">
-//     <div className="logoIcon">
-//      <img src=" logo icon here" alt="" className="icon" />
-//    </div> */}
-
-// ---> Footer parent div---//
-  // logo img in rightside div tag //
-  // Let us grow together leftside div//
-        // 3 clickable spans for linkedIn (https://www.linkedin.com/in/ann-likowo-molinge-39576473/),Calendy ('
-          https://calendly.com/amolinge17') and github (https://github.com/Likowo?tab=repositories)//
-
-{/* <div className="footer">
-      <div className="logoIcon">
-        <img src=" logo icon here" alt="" className="icon" />
-      </div>
-</div> */}
       
     

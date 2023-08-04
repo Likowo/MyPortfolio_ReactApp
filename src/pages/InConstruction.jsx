@@ -1,7 +1,13 @@
+// Upload/Create component boilerplate using rfce
 import  { useState, useEffect } from 'react';
 import axios from 'axios';
  import React from 'react';
 //  import './App.css';
+
+//--** Wire Frame **--/
+ // Use github API ('https://api.github.com/users/Likowo/repos') to pull in projects in-construction; Then map through using an anchor tag ( <a href={project.html_url}>{project.name}</a>)
+//Import all paintings
+// import  from AbstactPainting './'
 
  function InConstruction() {
    const [project, setProject] = useState([])
@@ -37,16 +43,6 @@ import axios from 'axios';
  
  
 export default InConstruction
-// 
-//{
 
-//     return (
-        // <div className="InConstruction" > 
-//              <h1>This is the In-Construction page </h1>
-//         </div>
-   
-//     )
-// };
 
-//Import all paintings
-// import  from AbstactPainting './'
+
