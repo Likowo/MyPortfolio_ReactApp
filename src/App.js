@@ -38,12 +38,12 @@ function App() {
       {/* <h1> My Portfolio using Reactapp</h1> */}
   
   <div className='appImages'> 
-      <div>
-        <img src="https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif" alt="" className="image" />
-     </div>
       <div> 
         <img src='https://web-saga.com/static/media/coder.09366fea.gif' alt='' className="image" />
       </div> 
+      <div>
+        <img src="https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif" alt="" className="image" />
+     </div>
   </div>    
       <Routes className='' >
        <Route path="/" element={<HomePage/>}/>
