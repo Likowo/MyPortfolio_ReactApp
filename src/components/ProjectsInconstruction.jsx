@@ -4,6 +4,7 @@
  import  { useState, useEffect } from 'react';
  import axios from 'axios';
  import React from 'react';
+ import './App.css';
 
  function ProjectsInconstruction() {
    const [project, setProject] = useState([])
@@ -25,7 +26,6 @@
    };
    return (
      <div>
-       <div>ProjectsInconstruction</div>
        <h1>Projects In Construction</h1>
        <ul>
          {project.map((project) => (

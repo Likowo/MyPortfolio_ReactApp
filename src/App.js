@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Contact from './pages/Contact';
 import HomePage from './pages/HomePage';
-import Inconstruction from './pages/InConstruction';
+import InConstruction from './pages/InConstruction';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import NavBar from './components/NavBar'; // Imported after creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank")
@@ -36,19 +36,20 @@ function App() {
       
         <NavBar /> 
       {/* <h1> My Portfolio using Reactapp</h1> */}
-
+  
+  <div> 
       <div>
         <img src="https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif" alt="" className="image" />
-      </div>
-      <div>
+     </div>
+      {/* <div> 
         <img src='https://cdnl.iconscout.com/lottie/premium/preview-watermark/woman-looking-for-freelance-ui-ux-designer-8636711-6864482.mp4?h=700' alt='' className="image" />
-      </div>
-      
+      </div> */}
+  </div>    
       <Routes className='' >
        <Route path="/" element={<HomePage/>}/>
        <Route path="/Portfolio" element={<Portfolio/>}/>
        <Route path="/Resume" element={<Resume/>}/>
-       <Route path="/InConstruction" element={<Inconstruction/>}/>
+       <Route path="/InConstruction" element={<InConstruction/>}/>
        <Route path="/Contact" element={<Contact/>}/>
       </Routes>
 {/*      

@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import React from "react";
-
+// import "./App.css"
 
 export default function Home (props){
    //Step 1: Create function ( hint: async /await) to get data from random quotes API using axios
@@ -15,8 +15,10 @@ export default function Home (props){
   // }
   // useEffect(()=>{
   //   getInfo()
-  // },[])
+  // },[]
+
   //******OR */
+
   //   const makeAPICall = async () => {
   //   try {
   //     const response = await fetch('http://localhost:8080/', {mode:'cors'});
@@ -41,39 +43,39 @@ export default function Home (props){
   //   <img src="https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif" alt="" className="image" />
   // </div>
 
-  // const [quote, setQuote] = useState(null);
+  const [quote, setQuote] = useState(null);
 
-  // const getImageQuote = async () => {
-  //    const response = await axios.get("https://zenquotes.io/images">");
-  //    console.log(response)
-  //   const imageQuote = await response.json();
-  //   console.log({imageQuote})
-  //   setQuote(response.json)
-  // }
-  // .catch (e) {
-  //   console.log(e)
-  // }
+  const getImageQuote = async () => {
+     const response = await axios.get('https://random-data-api.com/api/v2/users?size=25&is_xml=true');
+     console.log(response)
+    const imageQuote = await response.data;
+    console.log({imageQuote})
+    setQuote(response.data)
+  }
+  
 
-  // useEffect(() => {
-  //   console.log('it is working')
-  //   getImageQuote();
-  // }, [])
+  useEffect(() => {
+    console.log('it is working')
+    getImageQuote();
+  }, [])
 
-  //   return (
-  //       <div className="homePage" > 
-  //         <h1>This is the Home page </h1>
-  //         <button onClick={getImageQuote} className="quotesButton"> Show Quote Of The Day </button>
-  //     <>
-  // {quote && quote.map((quote, index) => {
-  //  return(
-  //   <div key={index}>
-  //     <h2> Author Name: {quote.authorname} </h2>
-  //     <p> {quote.quotetext}</p>
-  //   </div>)
-  // })}
-  //    </>
-  //       </div>        
-  //   );
+    return (
+        <div className="homePage" > 
+          <h1>This is the Home page </h1>
+          <button onClick={getImageQuote} className="quotesButton"> Show Quote Of The Day </button>
+      <>
+  {quote && quote.map((quote, index) => {
+   return(
+    <div key={index}>
+      <h2> Author Name: {quote.username} </h2>
+      <p> {quote.avatar}</p>
+      <p> {quote.avatar}</p>
+      <p> {quote.employment.title}</p>
+    </div>)
+  })}
+     </>
+        </div>        
+    );
 };
 
 
