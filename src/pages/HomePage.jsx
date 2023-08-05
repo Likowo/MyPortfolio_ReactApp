@@ -39,10 +39,6 @@ export default function Home (props){
 
   //Step 4: Import API using axios .// https://random-data-api.com/api/v2/users?size=25&is_xml=true
 
-  // <div>
-  //   <img src="https://thumbs.gfycat.com/CompleteSimplisticGrizzlybear-max-1mb.gif" alt="" className="image" />
-  // </div>
-
   const [quote, setQuote] = useState(null);
 
   const getImageQuote = async () => {

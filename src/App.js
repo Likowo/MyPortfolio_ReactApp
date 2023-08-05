@@ -58,6 +58,7 @@ function App() {
       </Routes>
 
      <Footer /> 
+     <contact />
     </div>
   );
 }
