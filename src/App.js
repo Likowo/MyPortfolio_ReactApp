@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Contact from './pages/Contact';
 import HomePage from './pages/HomePage';
 import InConstruction from './pages/InConstruction';
-import Portfolio from './pages/Portfolio';
+import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import NavBar from './components/NavBar'; // Imported after creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank")
 import Footer from './components/Footer';
@@ -51,7 +51,7 @@ function App() {
   </div>    
       <Routes className='' >
        <Route path="/" element={<HomePage/>}/>
-       <Route path="/Portfolio" element={<Portfolio/>}/>
+       <Route path="/Projects" element={<Projects/>}/>
        <Route path="/Resume" element={<Resume/>}/>
        <Route path="/InConstruction" element={<InConstruction/>}/>
        <Route path="/Contact" element={<Contact/>}/>

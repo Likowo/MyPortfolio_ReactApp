@@ -12,8 +12,8 @@ function NavBar(props) {
       <Link to="/">
         <div>Home Page</div>
       </Link>
-      <Link to="/portfolio">
-        <div>PORTFOLIO</div>
+      <Link to="/projects">
+        <div>PROJECTS</div>
       </Link>
       <Link to="/resume">
         <div>RESUME</div>

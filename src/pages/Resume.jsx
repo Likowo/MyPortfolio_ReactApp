@@ -15,7 +15,7 @@ function Resume() {
         </div>
     
       <div className="downLoadResume">
-        <a href="\Resume  Portfolio.pdf" download>
+        <a href="\Resume  Portfolio.pdf" >
           <button className="downLoadButton" > Download Resume </button>
         </a>
       </div>

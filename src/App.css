@@ -50,29 +50,31 @@ body {
   width: 33.1vw;
 }
 
-.portfolio {
+.projects {
   /* border: solid 4px rgb(7, 87, 7); */
   height:100vh;
-  /* width:100vw;   */
+  width:100vw;  
 }
 
-.portfolioIntro{
+.projectIntro {
   /* border: solid 2px black; */
-  height: 18vh;
+  border-radius: 20%;
+  height: 20vh;
   /* width:55vw; */
+  background-color: cadetblue;
   display: flex;
   flex-direction:row;
-  padding: 8px;
-  background-color: cadetblue;
+  padding: 20px;
   font-size: 20px;
   font-family: serif;
   color: rgb(246, 241, 242);
   margin-top: 1%;
-  margin-right: 45%;
+  margin-right: 40%;
 }
 
  .carousel-inner{
   /* border: solid 5px magenta; */
+  border-radius: 5%;
   background-image: url("https://images.unsplash.com/photo-1603993097397-89c963e325c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
   height: 50vh;
   width:50vw; 
@@ -118,6 +120,7 @@ body {
 
 .text {
   /* border: solid 2px red; */
+  border-radius: 15%;
   height: 10vh;
   width:55vw;
   padding: 8px;
@@ -128,11 +131,17 @@ body {
   margin: 1%;
 }
 
+.text:hover {
+  cursor: pointer;
+  background-color: rgb(87, 205, 87);
+  color:yellow;
+}
+
 .downLoadButton {
   border:  solid  10px grey;
   border-radius: 15%;
   padding: 6px;
-  margin: 2%;
+  margin: 3%;
 }
 
 .downLoadButton:hover {
@@ -141,10 +150,33 @@ body {
 }
 
 
-.InConstruction{
-  border: solid 4px rgb(41, 10, 200);
+.inConstructionPage{
+  border: solid 4px red;
   height: 70vh;
   width: 100vw; 
+   padding: 5%;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgoldenrodyellow;
+}
+
+.imageAttributes {
+   border: solid 4px paleturquoise;
+  height: 45vh;
+  width: 50vw; 
+  text-align: left;
+}
+
+.listOfProjectsInConstruction {
+  /* border: solid 4px purple; */
+  background-color: white;
+  height: 40vh;
+  width: 30vw; 
+}
+
+.contactPage{
+  height: 70vh;
+  width: 100vw;
 }
 
 .footer {
