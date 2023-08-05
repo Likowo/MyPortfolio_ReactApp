@@ -10,14 +10,18 @@ import React from "react";
 function Resume() {
   return (
     <div className="resumePage">
+        <div className="text" > 
+            <h4>Hi, click on the buttons below to view my resume and cover letter. They will be updated based on position applying for.</h4>
+        </div>
+    
       <div className="downLoadResume">
         <a href="\Resume  Portfolio.pdf" download>
-          <button> Download Resume </button>
+          <button className="downLoadButton" > Download Resume </button>
         </a>
       </div>
       <div className="downLoadCoverLetter">
         <a href="\Cover letter Portfolio.pdf" download>
-          <button> Download Cover Letter </button>
+          <button className="downLoadButton" > Download Cover Letter </button>
         </a>
       </div>
     </div>

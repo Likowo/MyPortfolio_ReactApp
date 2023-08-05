@@ -109,6 +109,38 @@ body {
   background-color: black;
 }
 
+.resumePage {
+  height:100vh;
+  width: 100vw;
+  padding: 1%;
+  background-color: whitesmoke;
+}
+
+.text {
+  /* border: solid 2px red; */
+  height: 10vh;
+  width:55vw;
+  padding: 8px;
+  background-color: rgb(71, 89, 90);
+  font-size: 20px;
+  font-family: serif;
+  color: rgb(246, 241, 242);
+  margin: 1%;
+}
+
+.downLoadButton {
+  border:  solid  10px grey;
+  border-radius: 15%;
+  padding: 6px;
+  margin: 2%;
+}
+
+.downLoadButton:hover {
+  cursor: pointer;
+  background-color: lightcoral;
+}
+
+
 .InConstruction{
   border: solid 4px rgb(41, 10, 200);
   height: 70vh;
@@ -140,16 +172,17 @@ body {
 
 .contactLinks {
 /* border: solid 4px red; */
-cursor: pointer;
 color: white;
 text-decoration:overline;
 text-decoration-style: double;
 }
 
-.resumePage {
-  height:100vh;
-  padding: 10%;
+.contactLinks:hover {
+  text-decoration: yellow 4px underline overline;
+  cursor: pointer;
 }
+
+
 
 
 
