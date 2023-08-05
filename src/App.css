@@ -5,13 +5,12 @@ body {
 
 .App {
   width: 100vw;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color: lightblue;  
+  background-color: lightblue; 
 }
 
 .nav {
@@ -52,15 +51,15 @@ body {
 }
 
 .portfolio {
-  border: solid 4px rgb(7, 87, 7);
+  /* border: solid 4px rgb(7, 87, 7); */
   height:100vh;
-  width:100vw;  
+  /* width:100vw;   */
 }
 
 .portfolioIntro{
   /* border: solid 2px black; */
   height: 18vh;
-  width:55vw;
+  /* width:55vw; */
   display: flex;
   flex-direction:row;
   padding: 8px;
@@ -68,6 +67,8 @@ body {
   font-size: 20px;
   font-family: serif;
   color: rgb(246, 241, 242);
+  margin-top: 1%;
+  margin-right: 45%;
 }
 
  .carousel-inner{
@@ -75,8 +76,8 @@ body {
   background-image: url("https://images.unsplash.com/photo-1603993097397-89c963e325c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
   height: 50vh;
   width:50vw; 
-margin-left: 20%;
-margin-top: 6%;
+  margin-left: 20%;
+  margin-top: 6%;
 }
 
  .icons {
@@ -106,7 +107,6 @@ margin-top: 6%;
 .carousel-control-next-icon, .carousel-control-prev-icon {
   border: solid 5px red;
   background-color: black;
-
 }
 
 .InConstruction{
@@ -116,7 +116,7 @@ margin-top: 6%;
 }
 
 .footer {
-  border: solid 3px rgb(201, 225, 43);
+  /* border: solid 3px rgb(201, 225, 43); */
   background-image: url('https://www.citypng.com/public/uploads/preview/stars-galaxy-planet-illustration-transparent-png-31629667891pwgssraa4l.png');
   height: 10vh ;
   width: 100vw;
@@ -146,8 +146,9 @@ text-decoration:overline;
 text-decoration-style: double;
 }
 
-:hover {
-
+.resumePage {
+  height:100vh;
+  padding: 10%;
 }
 
 

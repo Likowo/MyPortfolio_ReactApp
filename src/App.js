@@ -58,7 +58,7 @@ function App() {
       </Routes>
 
      <Footer /> 
-     <contact />
+     {/* <contact /> */}
     </div>
   );
 }

@@ -65,7 +65,7 @@ export default function Portfolio(props) {
             <div className="carousel-caption d-none d-md-block">
             <div className="projectLinks" >
              <a href="https://likowo.github.io/Mod1_DOM_Quiz_Game_2Players/ ">
-             <h5> Checkout This project </h5>
+             <h5 className="checkOutProject"> Checkout This project </h5>
              </a>
             </div>
               <p>
@@ -83,7 +83,7 @@ export default function Portfolio(props) {
             <div className="carousel-caption d-none d-md-block">
             <div className="projectLinks" >
              <a href=" https://likowo.github.io/Space_Book_React_FinalGpwk/ ">
-             <h5> Checkout This project </h5>
+             <h5 className="checkOutProject"> Checkout This project </h5>
              </a>
             </div>
               <p>
