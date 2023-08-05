@@ -12,12 +12,12 @@ function Resume() {
     <div className="resumePage">
       <div className="downLoadResume">
         <a href="\Resume  Portfolio.pdf" download>
-          Download Resume
+          <button> Download Resume </button>
         </a>
       </div>
       <div className="downLoadCoverLetter">
         <a href="\Cover letter Portfolio.pdf" download>
-          Download Cover Letter
+          <button> Download Cover Letter </button>
         </a>
       </div>
     </div>
