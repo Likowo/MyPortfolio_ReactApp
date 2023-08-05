@@ -3,24 +3,23 @@ import React from "react";
 
 // Use this quick and simple way using anchor tag, to link to local pdf file (e.g Resume,cover letter) in a create-react-app project.
 
-<a
-  href="\pdfname.pdf"
-  download
->
+<a href="\pdfname.pdf" download>
   Download Resume
-</a>
+</a>;
 
 function Resume() {
   return (
     <div className="resumePage">
-
-<div className="downLoadResume" >
-
-         <a href="\Resume  Portfolio.pdf" download >
-            Download Resume
+      <div className="downLoadResume">
+        <a href="\Resume  Portfolio.pdf" download>
+          Download Resume
         </a>
-       </div>
-
+      </div>
+      <div className="downLoadCoverLetter">
+        <a href="\Cover letter Portfolio.pdf" download>
+          Download Cover Letter
+        </a>
+      </div>
     </div>
   );
 }
