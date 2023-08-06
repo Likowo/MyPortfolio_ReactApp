@@ -1,0 +1,235 @@
+@media(max-width: 1200px) and (min-width: 701px) {
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+      background-color: magenta;
+  }
+  
+  .nav {
+    /* border: solid 3px rgb(198, 46, 46); */
+    height: 10vh ;
+    width: 100vw;
+    padding-top: 3%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJlt_kyGdtKC8sfpwULJjLxX_AwHb2i6AoBQ&usqp=CAU"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: sticky;
+    top: 0;
+  }
+  
+  .homePage{
+    /* border: solid 3px orange; */
+    height: 150vh;
+    width: 100vw; 
+    background-color:burlywood;
+    font-family: 'vt323';
+  }
+  
+  .appImages {
+    /* border: solid 3px rgb(213, 64, 126); */
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    background-repeat:no-repeat; 
+    background-size:cover;
+  }
+  
+  .img {
+    /* border: solid 5px purple; */
+    height: 30vh;
+    width: 33.1vw;
+  }
+  
+  .projects {
+    /* border: solid 4px rgb(7, 87, 7); */
+    height:100vh;
+    width:100vw;  
+  }
+  
+  .projectIntro {
+    /* border: solid 2px black; */
+    border-radius: 20%;
+    height: 20vh;
+    /* width:55vw; */
+    background-color: cadetblue;
+    display: flex;
+    flex-direction:row;
+    padding: 20px;
+    font-size: 20px;
+    font-family: serif;
+    color: rgb(246, 241, 242);
+    margin-top: 1%;
+    margin-right: 40%;
+  }
+  
+   .carousel-inner{
+    /* border: solid 5px magenta; */
+    border-radius: 5%;
+    background-image: url("https://images.unsplash.com/photo-1603993097397-89c963e325c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+    height: 50vh;
+    width:50vw; 
+    margin-left: 20%;
+    margin-top: 6%;
+  }
+  
+   .icons {
+    /* border: solid 5px red; */
+    height: 50vh;
+    width:35vw; 
+  } 
+  
+  .checkOutProject {
+    color: rgb(233, 127, 7);
+    font-size: 25px;
+    text-decoration:underline;
+  }
+  
+  .checkOutProject, .button :hover{
+    cursor: pointer;
+  }
+  
+  .projectDescription {
+    color:whitesmoke;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 0.5%;
+  }
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    border: solid 5px red;
+    background-color: black;
+  }
+  
+  .resumePage {
+    height:100vh;
+    width: 100vw;
+    padding: 1%;
+    background-color: whitesmoke;
+  }
+  
+  .text {
+    /* border: solid 2px red; */
+    border-radius: 15%;
+    height: 10vh;
+    width:55vw;
+    padding: 8px;
+    background-color: rgb(71, 89, 90);
+    font-size: 20px;
+    font-family: serif;
+    color: rgb(246, 241, 242);
+    margin: 1%;
+  }
+  
+  .text:hover {
+    cursor: pointer;
+    background-color: rgb(87, 205, 87);
+    color:yellow;
+  }
+  
+  .downLoadButton {
+    border:  solid  10px grey;
+    border-radius: 15%;
+    padding: 6px;
+    margin: 3%;
+  }
+  
+  .downLoadButton:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+  }
+  
+  
+  .inConstructionPage{
+    /* border: solid 4px red; */
+    height: 70vh;
+    width: 100vw; 
+     padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .imageAttributes {
+     border: solid 4px paleturquoise;
+    height: 45vh;
+    width: 50vw; 
+    text-align: left;
+  }
+  
+  .listOfProjectsInConstruction {
+    /* border: solid 4px purple; */
+    background-color: white;
+    height: 40vh;
+    width: 30vw; 
+  }
+  
+  .contactPage{
+    height: 70vh;
+    width: 100vw;
+    background-color: darksalmon;
+    color:black ;
+  }
+  
+  .requiredField {
+    color: red;
+  }
+  
+  .submitButton {
+    border: solid 8px black;
+    border-radius: 5%;
+  }
+  
+  .footer {
+    /* border: solid 3px rgb(201, 225, 43); */
+    /* background-image: url('https://www.citypng.com/public/uploads/preview/stars-galaxy-planet-illustration-transparent-png-31629667891pwgssraa4l.png'); */
+  
+    background-image: url(./Assets/Stars\ Galaxy\ Planet\ PNG\ -\ 998x1000.png);
+    height: 10vh ;
+    width: 100vw;
+    padding: 3%;
+     display: flex; 
+    justify-content:space-around;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    /* position: sticky;
+    top: 0; */
+  }
+  
+  .arrow {
+    /* border: solid 5px blue; */
+    height: 8vh;
+    width: 8%;
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  
+  .contactLinks {
+  /* border: solid 4px red; */
+  color: white;
+  text-decoration:overline;
+  text-decoration-style: double;
+  }
+  
+  .contactLinks:hover {
+    text-decoration: yellow 4px underline overline;
+    cursor: pointer;
+  }
+}
+  
+  

@@ -193,7 +193,9 @@ body {
 
 .footer {
   /* border: solid 3px rgb(201, 225, 43); */
-  background-image: url('https://www.citypng.com/public/uploads/preview/stars-galaxy-planet-illustration-transparent-png-31629667891pwgssraa4l.png');
+  /* background-image: url('https://www.citypng.com/public/uploads/preview/stars-galaxy-planet-illustration-transparent-png-31629667891pwgssraa4l.png'); */
+
+  background-image: url(./Assets/Stars\ Galaxy\ Planet\ PNG\ -\ 998x1000.png);
   height: 10vh ;
   width: 100vw;
   padding: 3%;
@@ -202,8 +204,11 @@ body {
   color: white;
   font-weight: bold;
   font-size: 25px;
-  /* position: sticky;
-  top: 0; */
+  background-repeat: no-repeat; 
+  background-size: contain;
+  position: sticky;
+  bottom: 0;
+ 
 }
 
 .arrow {
