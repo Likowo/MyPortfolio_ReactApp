@@ -78,7 +78,7 @@ import axios from 'axios';
       </p>
    
 
-    <h1>Projects In Construction</h1>
+    <h2>Projects In Construction, from my Github profile page</h2>
 
     <div className='listOfProjectsInConstruction' >
        <ul>
