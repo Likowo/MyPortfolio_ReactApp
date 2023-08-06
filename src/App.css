@@ -33,6 +33,7 @@ body {
   height: 150vh;
   width: 100vw; 
   background-color:burlywood;
+  font-family: 'vt323';
 }
 
 .appImages {
@@ -151,7 +152,7 @@ body {
 
 
 .inConstructionPage{
-  border: solid 4px red;
+  /* border: solid 4px red; */
   height: 70vh;
   width: 100vw; 
    padding: 5%;
@@ -177,8 +178,17 @@ body {
 .contactPage{
   height: 70vh;
   width: 100vw;
-  /* display: flex; */
-  /* flex-direction: row; */
+  background-color: darksalmon;
+  color:black ;
+}
+
+.requiredField {
+  color: red;
+}
+
+.submitButton {
+  border: solid 8px black;
+  border-radius: 5%;
 }
 
 .footer {

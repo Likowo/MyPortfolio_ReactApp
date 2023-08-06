@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <div className="contactPage">
       <div>
-         <h1> Submit Question / Request </h1>
+         <h3>Welcome!  Submit Question / Request </h3>
       </div>
       <br />
       <div>
@@ -31,28 +31,29 @@ export default function Contact() {
           type="First and Last Name"
           {...register("First and Last Name", { required: true })}
         />
-        {errors.email && <p>First and Last Name required </p>}
+        {errors.email && <p className="requiredField">First and Last Name required! </p>}
         <br />     <br />
         <label> E-mail </label>
         <input
           type="email"
           {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
         />
-        {errors.email && <p>Email required </p>}
+        {errors.email && <p className="requiredField">Email required! </p>}
         <br />     <br />
         <label> Question/Request </label>
         <input
           type="Question/Request"
           {...register("placeHolder", { required: true })}
         />
-        {errors.email && <p>To better assist you please say something </p>}
+        {errors.email && <p className="requiredField">To better assist you please say something </p>}
         <br />   <br />
-        <button type="submitButton"> SUBMIT </button>
+        <button className ="submitButton"> SUBMIT </button>
       </form>
       </div> 
       <br />   <br />
       <div className="contactLinks">
         <a href="https://calendly.com/amolinge17">
+          <span>Set an appointment via my calendy below </span>
           <div>Calendy</div>
         </a>
       </div>
