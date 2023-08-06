@@ -2,7 +2,7 @@ Hi there! Welcome to my very first Portfolio build with reactapp, to showcase a 
 
 I am a full-stack software engineer student at Per Scholas bootcamp. My portfolio provides information about me, links you to a couple of my first projects, my resume and cover letter, projects still in construction and how to contact me. I believe everyday is a new day with new beginings and new learning opportunities.
 
-I used HTML/CSS/Javascript and react.js to build this application. A challenge I faced was with linking my pages via the navigation bar using routes and the react-router-dom. I typed in the <Link></Link> element with a lowercase letter (l) instead of upppercase (L). It took me hours to realize that the wrongly spelled word had a different color( blue) to the rightly spelled word(bright green). This is a common mistake anyone can make, especially newbies like me! Error message was; ERROR in ./src/components/NavBar.jsx
+I used HTML/CSS/Javascript and react.js to build this application. A challenge I faced was with linking my pages via the navigation bar using routes and the react-router-dom. I typed in the <Link> element with a lowercase letter (l) instead of upppercase (L). It took me hours to realize that the wrongly spelled word had a different color( blue) to the rightly spelled word(bright green). This is a common mistake anyone can make, especially newbies like me! Error message was; ERROR in ./src/components/NavBar.jsx
 Module build failed (from ./node_modules/babel-loader/lib/index.js): Expected corresponding JSX closing tag for <link>. (26:6)
 ![Wrongly spelled Link element](https://github.com/Likowo/MyPortfolio_ReactApp/assets/134336338/9c321d37-ab52-40a7-819d-36ed96d2cd2f)
 
