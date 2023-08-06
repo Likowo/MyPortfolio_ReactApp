@@ -177,6 +177,8 @@ body {
 .contactPage{
   height: 70vh;
   width: 100vw;
+  /* display: flex; */
+  /* flex-direction: row; */
 }
 
 .footer {

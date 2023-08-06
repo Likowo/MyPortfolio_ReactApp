@@ -20,8 +20,11 @@ export default function Contact() {
 
   return (
     <div className="contactPage">
-      <h1> Submit Question / Request </h1>
-
+      <div>
+         <h1> Submit Question / Request </h1>
+      </div>
+      <br />
+      <div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>First and Last Name</label>
         <input
@@ -29,24 +32,25 @@ export default function Contact() {
           {...register("First and Last Name", { required: true })}
         />
         {errors.email && <p>First and Last Name required </p>}
-
-        <label htmlFor="email">E-mail</label>
+        <br />     <br />
+        <label> E-mail </label>
         <input
           type="email"
           {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
         />
         {errors.email && <p>Email required </p>}
-
+        <br />     <br />
         <label> Question/Request </label>
         <input
           type="Question/Request"
           {...register("placeHolder", { required: true })}
         />
         {errors.email && <p>To better assist you please say something </p>}
-
-        <button type="submitForm"> SUBMIT </button>
+        <br />   <br />
+        <button type="submitButton"> SUBMIT </button>
       </form>
-
+      </div> 
+      <br />   <br />
       <div className="contactLinks">
         <a href="https://calendly.com/amolinge17">
           <div>Calendy</div>
