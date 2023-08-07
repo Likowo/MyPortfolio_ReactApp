@@ -1,10 +1,10 @@
 import { useState,useEffect } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import axios from "axios";
 import React from "react";
 // import "./App.css"
 
-export default function Home (props){
+export default function HomePage () {
    //Step 1: Create function ( hint: async /await) to get data from random quotes API using axios
    //Basic API Setup :
   //  const getInfo = async () => {
@@ -38,47 +38,57 @@ export default function Home (props){
   // Step 3: P tag about me
 
   //Step 4: Import API using axios .// https://random-data-api.com/api/v2/users?size=25&is_xml=true
+  // Second API : https://api.quotable.io/random
+  //Third API: https://type.fit/api/quotes
 
   const [quote, setQuote] = useState(null);
 
   const getImageQuote = async () => {
-     const response = await axios.get('https://random-data-api.com/api/v2/users?size=2&is_xml=true');
+     const response = await axios.get('https://type.fit/api/quotes');
      console.log(response)
     const imageQuote = await response.data;
     console.log({imageQuote})
-    setQuote(response.data)
+    setQuote(response.data);
   }
-  
   useEffect(() => {
     console.log('it is working')
     getImageQuote();
-  }, [])
+  }, []);
+  function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+  }
 
-    return (
-        <div className="homePage" > 
-          <h1>This is the Home page </h1>
-          <button onClick={getImageQuote} className="quotesButton"> Show Employee Information </button>
+   return (
+    <div className="homPage" > 
+        <div className="aboutMe" > 
+          <h1> About me </h1>
+          <p> Hi, my name is Ann Likowo Molinge. Welcome to my very first Portfolio built with reactapp. I am a full-stack software engineer student at Per Scholas bootcamp. My portfolio provides links to a couple of my first projects, my resume, cover letter, projects still in construction and how to contact me. I believe everyday is a new day with new beginings and new learning opportunities.My projects continue to evole. Thus you will find something inspiring that meets your need. Let us grow toghter. Connect with me through my links below this page or on the contact page. </p>
+        </div>
+       <div className="textArea">
+      <button onClick={getImageQuote} className="quotesButton"> Show Quote Of The Day </button>
       <>
-  {quote && quote.map((quote, index) => {
-   return(
-    <div key={index}>
-      <h2> Employee Name: {quote.username} </h2>
-      <img src={quote.avatar} />
-      <p> Gender: {quote.gender}</p>
-      <p> Title: {quote.employment.title}</p>
-      <p> Main Skill: {quote.employment.key_skill}</p>
-      <p> State: {quote.address.state}</p>
-      <p> Country: {quote.address.country}</p>
-    </div>)
+  {quote && quote.map((who, index) => {
+    console.log(who.author.split(',')[0])
+     if(index > 14){
+      return(
+        <div key={index}>
+              Author Name:{who.author.split(',')[0]}
+          <p> {quote[getRandomInt(0,quote.length)].text }</p>
+        </div>);
+     }
+
   })}
-     </>
-        </div>        
-    );
-};
+    </>
+    </div>
+  </div>  
+   )
+} 
 
 
+ 
 
-// Both NavBar and Footer done in separate pages by creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank"); And then calling them in Apps.js to display on home browser.
 
-      
-    
+{/* // Both NavBar and Footer done in separate pages by creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank"); And then calling them in Apps.js to display on home browser. */}
+

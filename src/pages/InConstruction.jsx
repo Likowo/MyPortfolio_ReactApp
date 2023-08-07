@@ -32,7 +32,6 @@ import axios from 'axios';
    return (
      <div className='inConstructionPage' >
 
-
 <div className="naturePics">   
         <a href="\NaturePics">
           <button className="NaturePicsButton" > Click Me Click Me </button>

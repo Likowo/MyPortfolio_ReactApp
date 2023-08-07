@@ -1,13 +1,20 @@
-Hi there! Welcome to my very first Portfolio build with reactapp, to showcase a couple of my very first projects and skills, to clients and potential employers.
+Hi there! Welcome to my very first Portfolio built with reactapp, to showcase a couple of my very first projects and skills, to clients and potential employers.
 
 I am a full-stack software engineer student at Per Scholas bootcamp. My portfolio provides information about me, links you to a couple of my first projects, my resume and cover letter, projects still in construction and how to contact me. I believe everyday is a new day with new beginings and new learning opportunities.
 
-I used HTML/CSS/Javascript and react.js to build this application. Dependencies installed included; axios,react,react-dom, react-hook-form and react-router-dom. A challenge I faced was with linking my pages via the navigation bar using routes and the react-router-dom. I typed in the Link element with a lowercase letter (l) instead of upppercase (L). It took me hours to realize that the wrongly spelled word had a different color( blue) to the rightly spelled word(bright green). This is a common mistake anyone can make, especially newbies like me! Error message was; ERROR in ./src/components/NavBar.jsx   Module build failed (from ./node_modules/babel-loader/lib/index.js): Expected corresponding JSX closing tag for <link>. (26:6)
+I used HTML/CSS/Javascript and react.js to build this application. Dependencies installed included; axios,react,react-dom, react-hook-form and react-router-dom. 
+
+A challenge I faced was with linking my pages via the navigation bar using routes and the react-router-dom. I typed in the Link element with a lowercase letter (l) instead of upppercase (L). It took me hours to realize that the wrongly spelled word had a different color( blue) to the rightly spelled word(bright green). This is a common mistake anyone can make, especially newbies like me! Error message was; ERROR in ./src/components/NavBar.jsx   Module build failed (from ./node_modules/babel-loader/lib/index.js): Expected corresponding JSX closing tag for <link>. (26:6)
 ![Wrongly spelled Link element](https://github.com/Likowo/MyPortfolio_ReactApp/assets/134336338/9c321d37-ab52-40a7-819d-36ed96d2cd2f)
+
+Unresolved issues: 1. github react pagefor Spacebook project deployed but life page not loading currently
+2. Author for random quotes API pulling up name of site (type.fit) and not author's name. Author name displays in console only.
 
 I built this app using a code editor called Visual Studio Code ( VS Code). You can download it for free using this link; https://code.visualstudio.com/
 A reference marterial I used for building forms in react is from freecodecamp.org. I combined both controlled and uncontrolled components methods.
 https://www.freecodecamp.org/news/how-to-build-forms-in-react/#:~:text=To%20handle%20form%20submission%2C%20you%20can%20use%20the%20handleSubmit%20function.&text=In%20this%20example%2C%20we%20pass,values%20of%20each%20form%20field.
+
+I help with gtting a random integer between two values , I use a funtion from : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#getting_a_random_integer_between_two_values
 
 In my collab project (SpaceBook), I worked with the following teammates; Jenna Coulter (https://github.com/jennac0312 ); Doug Deckert (https://github.com/takilesi) and Matthew Sanders(https://github.com/mattlotus ).Check out their githubs.
 
