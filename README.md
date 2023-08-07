@@ -1,21 +1,22 @@
 Hi there! Welcome to my very first Portfolio built with reactapp, to showcase a couple of my very first projects and skills, to clients and potential employers.
 
 I am a full-stack software engineer student at Per Scholas bootcamp. My portfolio provides information about me, links you to a couple of my first projects, my resume and cover letter, projects still in construction and how to contact me. I believe everyday is a new day with new beginings and new learning opportunities.
-
+<hr>
 I used HTML/CSS/Javascript and react.js to build this application. Dependencies installed included; axios,react,react-dom, react-hook-form and react-router-dom. 
-
+<hr>
 A challenge I faced was with linking my pages via the navigation bar using routes and the react-router-dom. I typed in the Link element with a lowercase letter (l) instead of upppercase (L). It took me hours to realize that the wrongly spelled word had a different color( blue) to the rightly spelled word(bright green). This is a common mistake anyone can make, especially newbies like me! Error message was; ERROR in ./src/components/NavBar.jsx   Module build failed (from ./node_modules/babel-loader/lib/index.js): Expected corresponding JSX closing tag for <link>. (26:6)
 ![Wrongly spelled Link element](https://github.com/Likowo/MyPortfolio_ReactApp/assets/134336338/9c321d37-ab52-40a7-819d-36ed96d2cd2f)
 
+<hr>
 Unresolved issues: 1. github react pagefor Spacebook project deployed but life page not loading currently
 2. Author for random quotes API pulling up name of site (type.fit) and not author's name. Author name displays in console only.
 3.Would love to hide quote so it only displays when button is clicked
 4. The Open Resume in a new window button works but some things throws an error about wrong path used or forgetting to export.
 5. Selecting specific projects from my github api to include in my In-Contruction page. Not all projects are being worked on at the same time.
 
-
+<hr>
 I built this app using a code editor called Visual Studio Code ( VS Code). You can download it for free using this link; https://code.visualstudio.com/
-
+<hr>
 A reference marterial I used for building forms in react is from freecodecamp.org. I combined both controlled and uncontrolled components methods.
 https://www.freecodecamp.org/news/how-to-build-forms-in-react/#:~:text=To%20handle%20form%20submission%2C%20you%20can%20use%20the%20handleSubmit%20function.&text=In%20this%20example%2C%20we%20pass,values%20of%20each%20form%20field.
 
@@ -25,7 +26,7 @@ Created a cool spinning button with help from ; https://egghead.io/lessons/css-u
 
 In my collab project (SpaceBook), I worked with the following teammates; Jenna Coulter (https://github.com/jennac0312 ); Doug Deckert (https://github.com/takilesi) and Matthew Sanders(https://github.com/mattlotus ).Check out their githubs.
 
-
+<hr>
 Comments and contributions are welcomed. You can reach me via linkedIn: https://www.linkedin.com/in/ann-likowo-molinge-39576473/ and my calendy: https://calendly.com/amolinge17
 
 # Getting Started with Create React App

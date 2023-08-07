@@ -64,7 +64,7 @@ export default function HomePage () {
     <div className="homPage" > 
         <div className="aboutMe" > 
           <div className="title" >    <h1> About me </h1>  </div> <br/> 
-          <p> Hi, my name is Ann Likowo Molinge. Welcome to my very first Portfolio built with reactapp. I am a full-stack software engineer student at Per Scholas bootcamp.  <br/> My portfolio provides links to a couple of my first projects, my resume, cover letter, projects still in construction and how to contact me. <br/> I believe everyday is a new day with new beginings and new learning opportunities.My projects continue to evole. Thus you will find something inspiring that meets your need. <br/> <b>Click the button to see your quote for the day with my random quote generator below. </b>   Let us grow toghter. Connect with me through my links below this page or on the contact page.  </p>
+          <p> Hi, my name is Ann Likowo Molinge. Welcome to my very first responsive Portfolio built with reactapp. I am a full-stack software engineer student at Per Scholas bootcamp.  <br/> My portfolio provides links to a couple of my first projects, my resume, cover letter, projects still in construction and how to contact me. <br/> I believe everyday is a new day with new beginings and new learning opportunities.My projects continue to evole. Thus you will find something inspiring that meets your need. <br/> <b>Click the button below to see your quote for the day with my random quote generator. </b>   Let us grow toghter. Connect with me through my links below this page or on the contact page.  </p>
         </div>
        <div className="findQuote">
       <button onClick={getRandomQuote} className="quotesButton"> Your Quote for the day Is... </button>
