@@ -9,10 +9,8 @@ I built this app using a code editor called Visual Studio Code ( VS Code). You c
 A reference marterial I used for building forms in react is from freecodecamp.org. I combined both controlled and uncontrolled components methods.
 https://www.freecodecamp.org/news/how-to-build-forms-in-react/#:~:text=To%20handle%20form%20submission%2C%20you%20can%20use%20the%20handleSubmit%20function.&text=In%20this%20example%2C%20we%20pass,values%20of%20each%20form%20field.
 
-In my collab project (SpaceBook), I worked with the following teammates; Jenna Coulter; Doug Deckert and Matthew Sanders.Check out their github.
-https://github.com/jennac0312
-https://github.com/takilesi
-https://github.com/mattlotus
+In my collab project (SpaceBook), I worked with the following teammates; Jenna Coulter (https://github.com/jennac0312 ); Doug Deckert (https://github.com/takilesi) and Matthew Sanders(https://github.com/mattlotus ).Check out their githubs.
+
 
 Comments and contributions are welcomed. You can reach me via linkedIn: https://www.linkedin.com/in/ann-likowo-molinge-39576473/ and my calendy: https://calendly.com/amolinge17
 
