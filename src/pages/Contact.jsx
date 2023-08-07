@@ -45,8 +45,15 @@ import { useForm } from "react-hook-form";
         {errors.email && <p className="requiredField">Email required! </p>}
         <br />     <br />
 
-        <label> Question/Request </label>
+        {/* <label> Question/Request </label>
         <input
+          type="text"
+          {...register("text", { required: true })}
+        />
+        {errors.text && <p className="requiredField">To better assist you please say something </p>} */}
+
+<label> Question/Request </label>
+        <textarea
           type="text"
           {...register("text", { required: true })}
         />
