@@ -33,11 +33,6 @@ import axios from 'axios';
    return (
      <div className='inConstructionPage' >
 
-{/* <div className="naturePics">   
-        <a href="\NaturePics">
-          <button className="NaturePicsButton" > Click Me Click Me </button>
-         </a>
-</div> */}
  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmd1c2kxaXRvM3BzbHRxcXFseGxxYjIweHJ1anRkMm0xMWR0NXRwayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o72FkiKGMGauydfyg/giphy.gif" alt="" className='comeingSoonImage'/>
  
     <h2>Projects In Construction, from my Github profile page</h2>
