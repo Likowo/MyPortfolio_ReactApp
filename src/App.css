@@ -240,7 +240,8 @@ body {
 .contactPage{
   height: 70vh;
   width: 100vw;
-  background-color: darksalmon;
+  background-color: rgb(245, 158, 130);
+  background-color: rgb(225, 221, 220);
   color:black ;
 }
 
