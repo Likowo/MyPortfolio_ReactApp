@@ -74,7 +74,7 @@ export default function HomePage () {
      if(index > 14){
       return(
         <div key={index}>
-              Author Name:{who.author.split(',')[0]}
+             {/* <p> Author Name:{who.author.split(',')[0]}</p>  */}
           <p> {quote[getRandomInt(0,quote.length)].text }</p>
         </div>);
      }
