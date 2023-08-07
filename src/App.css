@@ -231,6 +231,7 @@ body {
 
 .comeingSoonImage{
   border: solid 2px black;
+  border-radius: 80px;
   height: 30vh;
   width: 50vw;
 
