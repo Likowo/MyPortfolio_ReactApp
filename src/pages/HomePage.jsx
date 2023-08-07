@@ -64,10 +64,10 @@ export default function HomePage () {
     <div className="homPage" > 
         <div className="aboutMe" > 
           <div className="title" >    <h1> About me </h1>  </div> <br/> 
-          <p> Hi, my name is Ann Likowo Molinge. Welcome to my very first Portfolio built with reactapp. I am a full-stack software engineer student at Per Scholas bootcamp.  <br/> My portfolio provides links to a couple of my first projects, my resume, cover letter, projects still in construction and how to contact me. <br/> I believe everyday is a new day with new beginings and new learning opportunities.My projects continue to evole. Thus you will find something inspiring that meets your need. <br/> <b>Get a quote for the day with my random quote generator below. </b>   Let us grow toghter. Connect with me through my links below this page or on the contact page.  </p>
+          <p> Hi, my name is Ann Likowo Molinge. Welcome to my very first Portfolio built with reactapp. I am a full-stack software engineer student at Per Scholas bootcamp.  <br/> My portfolio provides links to a couple of my first projects, my resume, cover letter, projects still in construction and how to contact me. <br/> I believe everyday is a new day with new beginings and new learning opportunities.My projects continue to evole. Thus you will find something inspiring that meets your need. <br/> <b>Click the button to see your quote for the day with my random quote generator below. </b>   Let us grow toghter. Connect with me through my links below this page or on the contact page.  </p>
         </div>
        <div className="findQuote">
-      <button onClick={getRandomQuote} className="quotesButton"> Show Quote Of The Day </button>
+      <button onClick={getRandomQuote} className="quotesButton"> Your Quote for the day Is... </button>
       <>
   {quote && quote.map((who, index) => {
     console.log(who.author.split(',')[0])
@@ -78,10 +78,10 @@ export default function HomePage () {
           <p> {quote[getRandomInt(0,quote.length)].text }</p>
         </div>);
      }
-
   })}
     </>
     </div>
+    <img src="https://media2.giphy.com/media/b5D24l4GYdpUGSqJ5z/giphy.gif?cid=6c09b952mhnxojlbzzp8ia4i7knt3nciydbhoeea6o17awec&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt=""  className="thankYouImage"/>
   </div>  
    )
 } 
