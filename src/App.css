@@ -95,7 +95,6 @@ body {
   }
 }
 
-
 .appImages {
   /* border: solid 3px rgb(213, 64, 126); */
   height: 30vh;
@@ -221,18 +220,20 @@ body {
   background-color: lightgoldenrodyellow;
 }
 
-.imageAttributes {
-   border: solid 4px paleturquoise;
-  height: 45vh;
-  width: 50vw; 
-  text-align: left;
-}
-
 .listOfProjectsInConstruction {
-  /* border: solid 4px purple; */
+  border: solid 4px purple;
   background-color: white;
+  border-radius: 15px;
   height: 40vh;
   width: 30vw; 
+  /* float: inline-start; */
+}
+
+.comeingSoonImage{
+  border: solid 2px black;
+  height: 30vh;
+  width: 50vw;
+
 }
 
 .contactPage{

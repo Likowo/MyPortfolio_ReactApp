@@ -9,12 +9,19 @@ A challenge I faced was with linking my pages via the navigation bar using route
 
 Unresolved issues: 1. github react pagefor Spacebook project deployed but life page not loading currently
 2. Author for random quotes API pulling up name of site (type.fit) and not author's name. Author name displays in console only.
+3.Would love to hide quote so it only displays when button is clicked
+4. The Open Resume in a new window button works but some things throws an error about wrong path used or forgetting to export.
+5. Selecting specific projects from my github api to include in my In-Contruction page. Not all projects are being worked on at the same time.
+
 
 I built this app using a code editor called Visual Studio Code ( VS Code). You can download it for free using this link; https://code.visualstudio.com/
+
 A reference marterial I used for building forms in react is from freecodecamp.org. I combined both controlled and uncontrolled components methods.
 https://www.freecodecamp.org/news/how-to-build-forms-in-react/#:~:text=To%20handle%20form%20submission%2C%20you%20can%20use%20the%20handleSubmit%20function.&text=In%20this%20example%2C%20we%20pass,values%20of%20each%20form%20field.
 
-I help with gtting a random integer between two values , I use a funtion from : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#getting_a_random_integer_between_two_values
+Used information on getting a random integer between two values , from : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#getting_a_random_integer_between_two_values
+
+Created a cool spinning button with help from ; https://egghead.io/lessons/css-use-css-keyframes-to-create-a-basic-loading-animation
 
 In my collab project (SpaceBook), I worked with the following teammates; Jenna Coulter (https://github.com/jennac0312 ); Doug Deckert (https://github.com/takilesi) and Matthew Sanders(https://github.com/mattlotus ).Check out their githubs.
 
