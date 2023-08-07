@@ -43,16 +43,16 @@ export default function HomePage () {
 
   const [quote, setQuote] = useState(null);
 
-  const getImageQuote = async () => {
+  const getRandomQuote = async () => {
      const response = await axios.get('https://type.fit/api/quotes');
      console.log(response)
-    const imageQuote = await response.data;
-    console.log({imageQuote})
+    const randomQuote = await response.data;
+    console.log({randomQuote})
     setQuote(response.data);
   }
   useEffect(() => {
     console.log('it is working')
-    getImageQuote();
+    getRandomQuote();
   }, []);
   function getRandomInt(min, max) {
     min = Math.ceil(min);
@@ -63,11 +63,11 @@ export default function HomePage () {
    return (
     <div className="homPage" > 
         <div className="aboutMe" > 
-          <h1> About me </h1>
-          <p> Hi, my name is Ann Likowo Molinge. Welcome to my very first Portfolio built with reactapp. I am a full-stack software engineer student at Per Scholas bootcamp. My portfolio provides links to a couple of my first projects, my resume, cover letter, projects still in construction and how to contact me. I believe everyday is a new day with new beginings and new learning opportunities.My projects continue to evole. Thus you will find something inspiring that meets your need. Let us grow toghter. Connect with me through my links below this page or on the contact page. </p>
+          <div className="title" >    <h1> About me </h1>  </div> <br/> 
+          <p> Hi, my name is Ann Likowo Molinge. Welcome to my very first Portfolio built with reactapp. I am a full-stack software engineer student at Per Scholas bootcamp.  <br/> My portfolio provides links to a couple of my first projects, my resume, cover letter, projects still in construction and how to contact me. <br/> I believe everyday is a new day with new beginings and new learning opportunities.My projects continue to evole. Thus you will find something inspiring that meets your need. <br/> <b>Get a quote for the day with my random quote generator below. </b>   Let us grow toghter. Connect with me through my links below this page or on the contact page.  </p>
         </div>
-       <div className="textArea">
-      <button onClick={getImageQuote} className="quotesButton"> Show Quote Of The Day </button>
+       <div className="findQuote">
+      <button onClick={getRandomQuote} className="quotesButton"> Show Quote Of The Day </button>
       <>
   {quote && quote.map((who, index) => {
     console.log(who.author.split(',')[0])

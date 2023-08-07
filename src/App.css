@@ -37,6 +37,31 @@ body {
   overflow-y: hidden;
 }
 
+.title{
+  width: 30%;
+ padding: 40px;
+ color: orangered;
+ font-style: oblique;
+ font-family: fantasy;
+ font-weight: bolder;
+ /* font-size: 6%; */
+ 
+}
+
+.aboutMe{
+  /* border: solid red 5px; */
+  border-radius: 5%;
+  display: flex;
+  height: fit-content;
+  width: 65%;
+  font-size: 25px;
+  padding: 70px;
+  margin: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2;
+  color: rgb(52, 5, 5);
+}
+
 .appImages {
   /* border: solid 3px rgb(213, 64, 126); */
   height: 30vh;
