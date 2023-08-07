@@ -78,7 +78,7 @@ export default function Home (props){
 
 
 
-// Both NavBar and Footer done in separate pages by creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank"); And then calling then in Apps.js to display on home browser.
+// Both NavBar and Footer done in separate pages by creating a navigation using the link component (<link> </Link>) with the pathname and target property ( target="_blank"); And then calling them in Apps.js to display on home browser.
 
       
     

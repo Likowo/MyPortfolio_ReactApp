@@ -1,9 +1,9 @@
 import { useForm } from "react-hook-form";
-import React from "react";
+// import React from "react";
 
 // Building a contact form.
 
-export default function Contact() {
+ function Contact() {
   //Set up the form by using destructing to extract propeties to be used { register ( to register form fields),handleSubmit 9 to handle form submission), and errors(an object containing any validation error when a form is submitted)} from the useForm hook.
 
   const {
@@ -16,7 +16,9 @@ export default function Contact() {
 
   const onSubmit = (data) => {
     console.log(data);
+    // handleSubmit("");
   };
+    
 
   return (
     <div className="contactPage">
@@ -24,39 +26,67 @@ export default function Contact() {
          <h3>Welcome!  Submit Question / Request </h3>
       </div>
       <br />
+
       <div>
       <form onSubmit={handleSubmit(onSubmit)}>
+       {/* The onSubmit function is paaed to the handleSubmit function, and will be called when the form is submitted and will receive an object containing the values of each form field. */}
         <label>First and Last Name</label>
         <input
-          type="First and Last Name"
-          {...register("First and Last Name", { required: true })}
+          type="name"
+          {...register("name", { required: true })}
         />
-        {errors.email && <p className="requiredField">First and Last Name required! </p>}
+        {errors.name && <p className="requiredField">First and Last Name required! </p>}
         <br />     <br />
-        <label> E-mail </label>
+        <label>E-mail</label>
         <input
           type="email"
           {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
         />
         {errors.email && <p className="requiredField">Email required! </p>}
         <br />     <br />
-        <label> Question/Request </label>
+
+        {/* <label> Question/Request </label>
         <input
-          type="Question/Request"
-          {...register("placeHolder", { required: true })}
+          type="text"
+          {...register("text", { required: true })}
         />
-        {errors.email && <p className="requiredField">To better assist you please say something </p>}
+        {errors.text && <p className="requiredField">To better assist you please say something </p>} */}
+
+<label> Question/Request </label>
+        <textarea
+          type="text"
+          {...register("text", { required: true })}
+        />
+        {errors.text && <p className="requiredField">To better assist you please say something </p>}
         <br />   <br />
-        <button className ="submitButton"> SUBMIT </button>
+
+        <button type="submit" className="submitButton" > SUBMIT </button>
       </form>
       </div> 
       <br />   <br />
+
       <div className="contactLinks">
         <a href="https://calendly.com/amolinge17">
-          <span>Set an appointment via my calendy below </span>
+          <span>Setup an appointment via my calendy below  and connect via linkedIn and github </span>
           <div>Calendy</div>
         </a>
       </div>
+
+      <div className="contactLinks" >
+         <a href="https://www.linkedin.com/in/ann-likowo-molinge-39576473">
+        <div>LinkedIn</div>
+        </a>
+       </div>
+
+        
+    <div className="contactLinks">
+        <a href="https://github.com/Likowo?tab=repositories">
+        <div>GitHub</div>
+      </a> 
+    </div>
+    
     </div>
   );
 }
+
+export default Contact;
