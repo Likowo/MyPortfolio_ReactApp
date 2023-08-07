@@ -5,7 +5,9 @@ I am a full-stack software engineer student at Per Scholas bootcamp. My portfoli
 I used HTML/CSS/Javascript and react.js to build this application. Dependencies installed included; axios,react,react-dom, react-hook-form and react-router-dom. 
 <hr>
 A challenge I faced was with linking my pages via the navigation bar using routes and the react-router-dom. I typed in the Link element with a lowercase letter (l) instead of upppercase (L). It took me hours to realize that the wrongly spelled word had a different color( blue) to the rightly spelled word(bright green). This is a common mistake anyone can make, especially newbies like me! Error message was; ERROR in ./src/components/NavBar.jsx   Module build failed (from ./node_modules/babel-loader/lib/index.js): Expected corresponding JSX closing tag for <link>. (26:6)
-![Wrongly spelled Link element](https://github.com/Likowo/MyPortfolio_ReactApp/assets/134336338/9c321d37-ab52-40a7-819d-36ed96d2cd2f)
+[Wrongly spelled Link element]
+
+(https://github.com/Likowo/MyPortfolio_ReactApp/assets/134336338/9c321d37-ab52-40a7-819d-36ed96d2cd2f)
 
 <hr>
 Unresolved issues: 1. github react pagefor Spacebook project deployed but life page not loading currently
