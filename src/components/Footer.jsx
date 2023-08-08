@@ -18,7 +18,7 @@ function Footer() {
     <div className="footer">
       <span>Let us grow together. Connect Today.
        </span>
-       <img src="http://www.clipartbest.com/cliparts/7ca/6g5/7ca6g54ei.gif" alt="" className="arrow"/>
+       <img src="https://media1.giphy.com/media/ggiIT76o0nKxBq671w/giphy.gif?cid=ecf05e47nvywk2a9j3sj1s04g3ff5glpkd9d94drdduf7l35&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="" className="arrow"/>
 
        <div className="contactLinks" >
          <a href="https://www.linkedin.com/in/ann-likowo-molinge-39576473">
