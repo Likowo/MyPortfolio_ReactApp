@@ -13,24 +13,24 @@ function Resume() {
             <h4>Hi, click on the buttons below to view my resume and cover letter. They will be updated based on position applying for.</h4>
         </div>
     
-      <div className="downLoadResume">
+      {/* <div className="downLoadResume">
         <a href="\Resume  Portfolio.pdf" >
           <button className="downLoadButton"> Open Resume in a new window </button>
         </a>
-      </div>
+      </div> */}
 
-      <div className="downLoadResume">
+      {/* <div className="downLoadResume">
         <a href="\Resume  Portfolio.pdf" download >
           <button className="downLoadButton" > Download Resume </button>
         </a>
-      </div>
+      </div> */}
 
-
+{/* 
       <div className="downLoadCoverLetter">
         <a href="\Cover letter Portfolio.pdf" download>
           <button className="downLoadButton" > Download Cover Letter </button>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
