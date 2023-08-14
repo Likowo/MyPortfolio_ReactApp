@@ -4,15 +4,13 @@ export default function Projects(props) {
     //Insert carousel logic fron bootstrap. NB: Chose images of same size to display or customize to same size using css/
     // Top  projects for now ( will be displaying  3 out of  7): (1) https://likowo.github.io/PerScholas_Responsive_Website/  (2)https://likowo.github.io/GameApp_SpaceBattle/  (3) https://likowo.github.io/Mod1_DOM_Quiz_Game_2Players/ (4) https://likowo.github.io/Space_Book_React_FinalGpwk/ (5)https://likowo.github.io/ATM_ScreenProj/ (6) https://likowo.github.io/Employee_Directory_ReactApp_useContextHook/ (7)  https://likowo.github.io/Screen_Time_Reac_tApp/
 
-    <div className="projects">
+
+    <div className="projects">  
          <div div className="projectIntro">
       <p> Hi there ! Welcome to my projrct page! I am exicted to show you a couple of my first projects on this tech journey. My desire and goal is to help and contribute in solving day to day challenges, by building simple, beautiful and resourceful apps. Thus research,learning and development is a continous process for me. Come back often to check on improved versions of these projects and new developments. I am sure you will find something that meets one of your needs. </p>
-      {/* <div>
-        <a ref="https://calendly.com/amolinge17"> <button>Contact Me</button> 
-        </a> 
-      </div>    */}
-      </div> 
+    </div> 
    
+    <div className="carousel" >
       <div id="carouselExampleCaptions" className="carousel slide">
         {/* In a div, Create indicator buttons (  from indext 0 to 2) that let users jump directly to a particular slide.*/}
         <div className="carousel-indicators">
@@ -113,6 +111,23 @@ export default function Projects(props) {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
+
+    <div className="moreLinks" >
+        <span> <b>More Projects</b> </span>
+       <div className="links" >
+         <a href="https://likowo.github.io/CountDown_Timer_NewYr/">
+        <div>Countdown Timer</div>
+        </a>
+       </div>
+
+       <div className="links" >
+         <a href="https://likowo.github.io/CSSJS_Clock/">
+        <div>Live Cock</div>
+        </a>
+       </div>
+    </div>
+
     </div>
   );
 }

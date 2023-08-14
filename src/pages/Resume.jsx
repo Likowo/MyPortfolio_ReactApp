@@ -10,7 +10,7 @@ function Resume() {
   return (
     <div className="resumePage">
         <div className="text" > 
-            <h4>Hi, click on the buttons below to view my resume and cover letter. They will be updated based on position applying for.</h4>
+            <h4>Hi, click on the button below to view my resume . Will be updated based on position applying for. <br /> NB: If file not available, it is being updated. Thank you.</h4>
         </div>
     
       {/* <div className="downLoadResume">
@@ -19,11 +19,11 @@ function Resume() {
         </a>
       </div> */}
 
-      {/* <div className="downLoadResume">
-        <a href="\Resume  Portfolio.pdf" download >
+      <div className="downLoadResume">
+        <a href="\Resume in Portfolio Proj.pdf" download>
           <button className="downLoadButton" > Download Resume </button>
         </a>
-      </div> */}
+      </div>
 
 {/* 
       <div className="downLoadCoverLetter">
